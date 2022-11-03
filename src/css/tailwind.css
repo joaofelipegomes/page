@@ -594,28 +594,8 @@ video {
   background-color: rgb(40 42 54 / var(--tw-bg-opacity));
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .pl-6 {
   padding-left: 1.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -641,24 +621,24 @@ video {
   color: rgb(255 121 198 / var(--tw-text-opacity));
 }
 
-.text-\[\#f1fa8c\] {
-  --tw-text-opacity: 1;
-  color: rgb(241 250 140 / var(--tw-text-opacity));
-}
-
-.text-\[\#fff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-\[\#50fa7b\] {
   --tw-text-opacity: 1;
   color: rgb(80 250 123 / var(--tw-text-opacity));
 }
 
+.text-\[\#f1fa8c\] {
+  --tw-text-opacity: 1;
+  color: rgb(241 250 140 / var(--tw-text-opacity));
+}
+
 .text-\[\#6272a4\] {
   --tw-text-opacity: 1;
   color: rgb(98 114 164 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 body {
@@ -706,6 +686,14 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:pl-0 {
+    padding-left: 0px;
+  }
+
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
